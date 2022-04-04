@@ -724,6 +724,7 @@ usage(void)
 int
 main(int argc, char *argv[])
 {
+	setenv("GTK_THEME", "Adwaita:dark", 1);
 	XWindowAttributes wa;
 	int i, fast = 0;
 
